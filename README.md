@@ -8,7 +8,7 @@ To run this website locally, you need to have Node.js and npm installed on your 
 
 - Clone this repository to your local machine: git clone https://github.com/ayannafees/Paxa_Assignment.git
 
-- Navigate to the project folder: cd paxatask
+- Navigate to the project folder: cd Paxa_Assignment
 
 - Install the required packages: npm install
 
