@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+// Importing the CSS file for styling
 import './App.css';
 
+// Importing the Home component from the pages directory
+import Home from './pages/Home';
+
+// Functional component representing the main App
 function App() {
+  // Returning a div with the "App" class containing the Home component
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Home />
     </div>
   );
 }
 
+// Exporting the App component as the default export
 export default App;
