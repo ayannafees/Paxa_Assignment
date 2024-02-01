@@ -7,7 +7,7 @@ import Attachments from '../../images/cardsImages/attach-outline.svg';
 const Card = ({ image, bar1, bar2, bar3, bar4, heading, text, profile, comments, likes, attachments }) => {
   return (
     // Container div with custom styling for the Card component
-    <div className="w-[362px] bg-[#F4F4F4] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-2 cursor-pointer">
+    <div className="w-[362px] bg-[#F4F4F4] border border-gray-200 rounded-lg shadow mb-2 cursor-pointer">
       
       {/* Card image */}
       <img className={`rounded-t-lg ${image ? 'm-5' : 'm-0 mb-5'}`} src={image} alt="" />

@@ -5,7 +5,7 @@ import Menu from '../../images/cardsImages/Combined Shape.svg';
 const CardTop = ({ heading }) => {
   return (
     // Container div with custom styling for the CardTop component
-    <div className="max-w-[362px] bg-[#F4F4F4] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-3 cursor-pointer">
+    <div className="max-w-[362px] bg-[#F4F4F4] border border-gray-200 rounded-lg shadow mb-3 cursor-pointer">
       
       {/* Top section with heading and menu icon */}
       <div className='flex justify-between items-center m-5 my-2'>
