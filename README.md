@@ -18,7 +18,7 @@ To run this website locally, you need to have Node.js and npm installed on your 
 
 ### Deployment Details
 
-You can also access the deployed code at: https://65baf2dce796a50dbf0c996b--majestic-tanuki-51b812.netlify.app/
+You can also access the deployed code at: https://majestic-tanuki-51b812.netlify.app/
 
 ### Contributors
 
